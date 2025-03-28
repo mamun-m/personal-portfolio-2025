@@ -1,9 +1,8 @@
 import "./Icons.css";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiSpacex } from "react-icons/si";
-type Props = {};
 
-const IconsTemp = (props: Props) => {
+const IconsTemp = () => {
   return (
     <div className="links-icons">
       <a href="https://www.linkedin.com/in/mohammed-mamun-121939234/">

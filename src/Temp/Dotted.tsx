@@ -1,9 +1,6 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-empty-object-type */
 import "./Dotted.css";
-type Props = {};
 
-const Dotted = (props: Props) => {
+const Dotted = () => {
   return (
     <div className="dotted-container">
       <div></div>
