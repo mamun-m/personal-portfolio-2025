@@ -1,0 +1,21 @@
+.card-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#head {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+.card-container p {
+  color: rgb(194, 189, 189);
+}
+.icon-sizes {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}

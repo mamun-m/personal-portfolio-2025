@@ -1,0 +1,160 @@
+.about-container {
+  width: 70%;
+  height: 600px;
+  background-color: slategrey;
+  margin: 200px auto;
+  overflow-y: auto;
+  border-radius: 12px;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(26, 235, 96) rgb(84, 85, 86);
+}
+/* this is content  */
+
+.about-content {
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+/* section one start  */
+.one-about-section {
+  height: auto;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.one-img,
+.one-details {
+  width: 50%;
+}
+.one-img-phots {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.one-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+.one-details h1 {
+  text-align: center;
+  color: white;
+}
+.one-details-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.one-detail-two-both {
+  display: flex;
+  gap: 80px;
+}
+.one-details-content-left,
+.one-details-content-right {
+  font-size: 18px;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.one-details-content-left span,
+.one-details-content-right span {
+  color: rgb(0, 216, 94);
+}
+
+.one-details-content button {
+  width: 40%;
+}
+
+.futuer-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+/* one about done here  */
+/* seciton two stat  */
+.two-about-section {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+.two-about-section-content {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin-top: 100px;
+}
+.two-about-section-hr {
+  border: 1px solid slateblue;
+}
+.two-about-education,
+.two-about-experince {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+/* seciton two stat end */
+/* three-about-section start */
+.three-about-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 50px;
+  position: relative;
+}
+.skills-details {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.skills-one,
+.skills-two {
+  width: 50%;
+  background-color: rgb(29, 27, 27);
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+}
+.front-end-skill {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+/* three-about-section start ends*/
+
+@media screen and (max-width: 1100px) {
+  .one-about-section,
+  .two-about-section-content,
+  .skills-details {
+    flex-direction: column;
+  }
+  .one-img,
+  .one-details {
+    width: 100%;
+  }
+  .one-details-content button {
+    width: 40%;
+    margin: auto;
+  }
+  .one-detail-two-both {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .two-about-section-hr {
+    margin: 30px 0;
+  }
+  .skills-one,
+  .skills-two {
+    width: 100%;
+  }
+}

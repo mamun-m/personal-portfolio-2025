@@ -1,0 +1,101 @@
+.contact-container {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8015581232492998) 0%,
+    rgba(237, 237, 237, 0.6643032212885154) 100%
+  );
+  width: 70%;
+  margin: 100px auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 60px;
+  border-radius: 16px;
+}
+.contact-content-left,
+.contact-content-right {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.contact-content-left {
+  border: 2px solid slategrey;
+}
+.contact-left-details {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.same-align {
+  text-align: center;
+}
+.names-identity {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 26px;
+}
+.names-identity i {
+  color: #0077b5;
+  font-size: 30px;
+}
+.names-identity span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #8e00b5;
+}
+.contact-content-right {
+  border: 2px solid rgb(38, 146, 255);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.debug-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.deb-input {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  gap: 10px;
+  width: 100%;
+}
+.inpu,
+textarea {
+  border: 1px solid rgb(193, 184, 184);
+  border-radius: 16px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  transition: 0.3s ease;
+  resize: none;
+}
+textarea {
+  padding: 30px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.deb-input input:hover {
+  border: 1px solid springgreen;
+}
+.ext-texare-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact-container,
+  .debug-inputs {
+    flex-direction: column;
+  }
+}

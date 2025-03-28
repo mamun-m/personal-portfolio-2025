@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "head": "Frontend Specialist",
+    "text1": "I am a highly skilled Web Developer ...",
+    "text2": "HTML, CSS, JavaScript, React, Redux Toolkit, TypeScript, and SCSS.",
+    "Icon": "FaCode"
+  },
+  {
+    "id": 2,
+    "head": "Web Design",
+    "text1": "Responsive Design – Making websites mobile-friendly.",
+    "text2": "I am already practicing HTML, CSS, and JavaScript Typescript",
+    "Icon": "FaLaptopCode"
+  },
+  {
+    "id": 3,
+    "head": "FullyResponsive",
+    "text1": "specialize in building responsive, high-performance, and user-friendly web applications.",
+    "text2": "Develop clean, efficient, and scalable code",
+    "Icon": "AiOutlineAntDesign"
+  },
+  {
+    "id": 4,
+    "head": "CSS Animation ",
+    "text1": "CSS Animation allows you to add smooth transitions and movements to your web elements without using JavaScript",
+    "text2": "",
+    "Icon": "MdAnimation"
+  },
+  {
+    "id": 5,
+    "head": "Project Managment",
+    "text1": "A clear and logical project structure makes collaboration easier. The typical structure includes folders for components, assets, styles, utilities, and more.",
+    "text2": " ",
+    "Icon": "MdManageAccounts"
+  },
+  {
+    "id": 6,
+    "head": "Coading Practicing .....",
+    "text1": "code . code ",
+    "text2": "vs . code  .  Tech Stack: React, JavaScript (ES6+), TypeScript, Redux, SCSS, JSON, API Integration",
+    "Icon": "VscVscode"
+  }
+]
