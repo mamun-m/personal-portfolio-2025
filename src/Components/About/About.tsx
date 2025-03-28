@@ -1,9 +1,6 @@
-/* eslint-disable no-empty-pattern */
 import img from "../../assets/dhaka.jpeg";
 import "./About.css";
 import { FcDownload } from "react-icons/fc";
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiSpacex } from "react-icons/si";
 import Card from "../../Temp/Card";
 import Dotted from "../../Temp/Dotted";
 import Progress from "../../Temp/Progress";
